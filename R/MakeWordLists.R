@@ -41,9 +41,9 @@ MakeWordLists <- function(wlists = c("gi","afinn","liu")){
   if("liu" %in% wlists){
     print("Creating lists from Bing Liu lexicon.")
     
-    liu.pos <- read.delim("https://raw.github.com/schaunwheeler/tmt/master/liu_positive_words.txt", 
+    liu.pos <- read.delim("https://github.com/jeffreybreen/twitter-sentiment-analysis-tutorial-201107/tree/master/data/opinion-lexicon-English/liu_positive_words.txt", 
       header=F, as.is=T, skip=35)$V1
-    liu.neg <- read.delim("https://raw.github.com/schaunwheeler/tmt/master/liu_negative_words.txt", 
+    liu.neg <- read.delim("https://github.com/jeffreybreen/twitter-sentiment-analysis-tutorial-201107/tree/master/data/opinion-lexicon-English/liu_negative_words.txt", 
       header=F, as.is=T, skip=35)$V1
   }
   
