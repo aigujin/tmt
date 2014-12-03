@@ -5,6 +5,11 @@
 export(SetEnvVarW)
 export(aspellCheck)
 export(aspellStem)
+export(MakeWordList)
+export(splitWords)
+export(GetSentiment)
+export(WordsBySentiment)
+
 
 # Import all packages listed as Imports or Depends
 import(
