@@ -5,7 +5,7 @@
 export(SetEnvVarW)
 export(aspellCheck)
 export(aspellStem)
-export(MakeWordList)
+export(MakeWordLists)
 export(splitWords)
 export(GetSentiment)
 export(WordsBySentiment)
